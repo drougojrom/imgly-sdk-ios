@@ -54,7 +54,7 @@ A commercial license is required for any app or service that has any form of mon
 
 ## License
 
-Please see [LICENSE](https://github.com/imgly/imgly-sdk-ios-private/blob/master/LICENSE) for licensing details.
+Please see [LICENSE](https://github.com/imgly/imgly-sdk-ios/blob/master/LICENSE) for licensing details.
 
 # Installation
 
