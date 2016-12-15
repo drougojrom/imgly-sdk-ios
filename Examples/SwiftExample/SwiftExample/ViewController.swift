@@ -62,7 +62,7 @@ class ViewController: UITableViewController {
     private func presentCameraViewController() {
         let configuration = buildConfiguration()
         let cameraViewController = CameraViewController(configuration: configuration)
-        cameraViewController.completionBlock = { image, videoURL in
+        cameraViewController.completionBlock = { [unowned cameraViewController] image, videoURL in
             if let image = image {
                 cameraViewController.present(self.createPhotoEditViewController(with: image), animated: true, completion: nil)
             }
@@ -108,11 +108,11 @@ class ViewController: UITableViewController {
 
 extension ViewController: PhotoEditViewControllerDelegate {
     func photoEditViewController(_ photoEditViewController: PhotoEditViewController, didSave image: UIImage, and data: Data) {
-
+        dismiss(animated: true, completion: nil)
     }
 
     func photoEditViewControllerDidFailToGeneratePhoto(_ photoEditViewController: PhotoEditViewController) {
-
+        dismiss(animated: true, completion: nil)
     }
 
     func photoEditViewControllerDidCancel(_ photoEditViewController: PhotoEditViewController) {
