@@ -69,7 +69,7 @@ Here's what you have to add to your `Podfile`:
 ```
 use_frameworks!
 
-pod 'imglyKit', '~> 6.0'
+pod 'imglyKit', '~> 6.1'
 ```
 
 Then run `pod install`.
