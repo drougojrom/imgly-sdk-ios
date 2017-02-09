@@ -13,11 +13,11 @@
     </a>
 </p>
 
-# About Photo Editor SDK for iOS
+# About PhotoEditor SDK for iOS
 
 ## Overview
 
-Our SDK provides tools for adding photo editing capabilities to your iOS application with a big variety of filters that can be previewed in realtime. Unlike other apps that allow a live preview of filters, the Photo Editor SDK even provides a live preview when using high-resolution images. We do not have any resolution limits, the framework is written in Swift and allows for easy customization.
+Our SDK provides tools for adding photo editing capabilities to your iOS application with a big variety of filters that can be previewed in realtime. Unlike other apps that allow a live preview of filters, the [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=iOS) even provides a live preview when using high-resolution images. We do not have any resolution limits, the framework is written in Swift and allows for easy customization.
 Additionally we support adding stickers and text in a non-destructive manner, which means that you can change the position, size, scale and order at any given time, even after applying other effects or cropping the photo.
 
 This repository contains two examples. Both examples are identical except for the fact that [one is written in Objective-C](https://github.com/imgly/imgly-sdk-ios/tree/master/Examples/ObjcExample) and [the other is written in Swift](https://github.com/imgly/imgly-sdk-ios/tree/master/Examples/SwiftExample). Both examples use CocoaPods for the integration and do some very basic customization of the SDK. Before compiling any of the examples you will have to install the CocoaPod using `pod install`.
@@ -32,9 +32,9 @@ A commercial license is required for any app or service that has any form of mon
 
 * 62 stunning built in filters to choose from.
 * Native code: Our rendering engine is based on Apple's Core Image, therefore we dodge all the nasty OpenGL problems other frameworks face.
-* iPad support: The Photo Editor SDK uses auto layout for its views and adapts to each screen size - iPhone or iPad.
+* iPad support: The PhotoEditor SDK uses auto layout for its views and adapts to each screen size - iPhone or iPad.
 * Design filters in Photoshop: With most photo editing frameworks you have to tweak values in code or copy & paste them from Photoshop or your favorite image editor. With our response technology that is a thing of the past. Design your filter in Photoshop, once you are done apply it onto the provided identity image. That will 'record' the filter response - save it, add it as new filter, done!
-* Swift: Keeping up with time, we chose Swift as the main development language of the Photo Editor SDK, leading to leaner easier code.
+* Swift: Keeping up with time, we chose Swift as the main development language of the PhotoEditor SDK, leading to leaner easier code.
 * Live preview: Filters can be previewed directly in the camera preview.
 * Low memory footprint: We were able to reduce our memory footprint significantly.
 * Non-destructive: Don't like what you did? No problem, just redo or even discard it.
@@ -60,7 +60,7 @@ Please see [LICENSE](https://github.com/imgly/imgly-sdk-ios/blob/master/LICENSE)
 
 ## CocoaPods
 
-PhotoEditorSDK is available via CocoaPods. If you're new to CocoaPods, [this Getting Started Guide will help you](https://guides.cocoapods.org/using/getting-started.html). CocoaPods is the preferred and simplest way to use the PhotoEditorSDK.
+PhotoEditor SDK is available via CocoaPods. If you're new to CocoaPods, [this Getting Started Guide will help you](https://guides.cocoapods.org/using/getting-started.html). CocoaPods is the preferred and simplest way to use the PhotoEditor SDK.
 
 **Important:** Please make sure that you have a CocoaPods version >= 0.39.0 installed. You can check your version of CocoaPods with `pod --version`.
 
@@ -142,8 +142,8 @@ To try these examples, and find out about more options please take a look at the
 
 # Further reading
 
-For a more detailed documentation, please see our [full documentation](https://www.photoeditorsdk.com/documentation/ios/getting-started)
+For a more detailed documentation, please see our [full documentation](https://www.photoeditorsdk.com/documentation/ios/getting-started/?utm_source=Github&utm_medium=PESDK&utm_term=iOS)
 
 ## Author
 
-9elements GmbH, [@PhotoEditorSDK](https://twitter.com/PhotoEditorSDK), [https://www.photoeditorsdk.com](https://www.photoeditorsdk.com)
+9elements GmbH, [@PhotoEditorSDK](https://twitter.com/PhotoEditorSDK), [https://www.photoeditorsdk.com](https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=iOS)
