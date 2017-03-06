@@ -2,5 +2,5 @@ platform :ios, '9.0'
 
 target 'ObjcExample' do
   use_frameworks!
-  pod 'imglyKit', '~> 6.3'
+  pod 'imglyKit', '~> 6.4'
 end
